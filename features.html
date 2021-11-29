@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Features - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="#">DSCI 551 Final Project</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html" style="font-size: 14.8px;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="features.html" style="font-size: 14.8px;">data</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pricing.html" style="font-size: 14.8px;">ML APP</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page">
+        <section class="clean-block features">
+            <div class="container" style="background: var(--bs-gray-dark);">
+                <div class="block-heading">
+                    <h2 class="text-info" style="font-size: 43px;color: rgb(59,153,224);">Data</h2>
+                    <p style="font-size: 20px;max-width: 437px;color: var(--bs-white);"><br>We have incorporated the <a href="https://www.kaggle.com/austinreese/craigslist-carstrucks-data">Used Cars Dataset</a> on Kaggle into our database as the main source of data.&nbsp;<br><br></p>
+                    <p style="font-size: 20px;color: var(--bs-white);"><br><br>Click <a href="https://551project.knack.com/final-project#final-project/car-data/">here</a> to access our<br>database.<br><br><br></p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p></p>
+                        <h1 style="font-size: 34px;color: var(--bs-info);">Cleaning<br></h1>
+                        <h1 style="font-size: 34px;color: var(--bs-info);"></h1>
+                        <p style="padding-top: 4px;font-size: 17px;color: var(--bs-gray-600);"><br><br>The dataset was messy, with many columns and row having missing values and/or extra information not needed. As a result, the pre-processing was extensive as we cleaned out irrelevant columns (such as entry ID, region URL, etc.) and dropped rows with too many empty cells. Moreover, we conducted heavy textual analysis and cleaning on features such as manufacturer and model to ensure the consistency in the texts.<br><br>The resulting dataset has over <strong>320k</strong> entries with <strong>12</strong> important features (including price).</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h1 style="font-size: 34px;color: var(--bs-info);padding-top: 21px;">Metadata</h1>
+                        <p style="color: var(--bs-gray-600);font-size: 17px;"><br><br><strong>Title</strong>: Used Car Dataset (Vehicle listings from Craigslist.org)<br><br><strong>Description</strong>: Craigslist is the world's largest collection of used vehicles for sale. This dataset contains 420k+ rows of vehicle data which documents information of unique entry ID, listing URL, craigslist region, region URL, car price, year, manufacturer, model, condition, cylinders, fuel, odometer, title_status, transmission, VIN number, type of drive, vehicle size, body style, paint color, image URL, vehicle description, county, state, latitude and longitude of<br>listing, and date of posting.<br><br><strong>Sources</strong>: <a href="http://craigslist.org/">craigslist.org</a><br><br><strong>Collection Methodology</strong>:&nbsp;<br><a href="https://github.com/AustinReese1998/craigslistFilter/blob/master/scrapeVehicles.py">Https://github.com/AustinReese1998/craigslistFilter/blob/master/scrapeVehicles.py</a><br><br><strong>Dataset Owner</strong>: <a href="https://www.kaggle.com/austinreese">Austin Reese</a><br><br><strong>Expected Update Frequency</strong>: Quarterly<br><br><strong>Last Updated</strong>: 2021-05-06<br><br><strong>Date Created</strong>: 2018-10-10<br><br><strong>Size</strong>: 1.45GB<br><br><strong>Format</strong>: .csv<br><br></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark">
+        <div class="footer-copyright">
+            <p>© Hao Niu, Dading Shi 2021&nbsp;</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/vanilla-zoom.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
